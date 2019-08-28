@@ -1,2 +1,2 @@
-# Phaze.dev
-The repo for the https://Phaze.dev website.
+# Celestte
+The repo for the https://Celestte.io website.
