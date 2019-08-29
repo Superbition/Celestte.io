@@ -142,38 +142,27 @@ main
 
 #feature-box-container
 {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-.title
-{
-    font-size: 34px;
-    color: #4F5B93;
-    text-align: left;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    padding: 30px;
+    margin: -10px;
 }
 
 .feature-box
 {
-    display: inline-flex;
+    display: flex;
     flex-grow: 1;
-    width: 300px;
+    /*flex: 0 0 50%;*/
+    width: 45%;
     padding: 12px;
-
     color: grey;
     border: 1px solid #4F5B93;
     border-radius: 8px;
-
-    margin-right: 50px;
-    margin-bottom: 50px;
+    margin: 10px;
+    align-items: center;
+    justify-content: left;
 }
-
-.feature-box:last-child {
-    margin-bottom: 0;
-  }
 
 .feature-box img
 {
@@ -189,6 +178,15 @@ main
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.title
+{
+    font-size: 34px;
+    color: #4F5B93;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 footer
