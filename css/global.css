@@ -126,6 +126,11 @@ main
     filter: drop-shadow(5px 5px 5px #383838);
 }
 
+#get_started_action
+{
+    margin-top: 50px;
+}
+
 #phaze-short-desc
 {
     font-size: 34px;
