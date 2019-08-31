@@ -7,3 +7,13 @@
 {
 	text-align: center;
 }
+
+.push-left
+{
+	float: left;
+}
+
+.push-right
+{
+	float: right;
+}
