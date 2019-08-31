@@ -237,6 +237,43 @@ main
     margin-bottom: 10px;
 }
 
+#start-learning
+{
+    margin-top: 60px;
+}
+
+#inspiration-container
+{
+    margin-top: 70px
+}
+
+.inspire-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inspire-spacer
+{
+    height: 150px;
+}
+
+.inspure-img
+{
+    height: 400px;
+    width: auto;
+}
+
+.inspire-text
+{
+    margin: 0;
+    color: grey;
+    font-size: 34px;
+    padding: 10px;
+}
+
 footer
 {
     height: 400px;
