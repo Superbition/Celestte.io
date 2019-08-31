@@ -189,6 +189,54 @@ main
     margin-bottom: 100px;
 }
 
+#use-case-container
+{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 25px;
+    color: #d1cece;
+    border-radius: 10px;
+    background: rgb(122,139,228);
+    background: linear-gradient(175deg, rgba(122,139,228,1) 0%, rgba(66,80,150,1) 76%);
+}
+
+#use-case-wrapper
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: -25px;
+    margin-bottom: -50px;
+}
+
+.use-case-section
+{
+    flex-direction: column;
+    flex-grow: 1;
+    width: 30%;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
+
+.use-case-img img
+{
+    height: 98px;
+    width: auto;
+    margin-bottom: 12px;
+}
+
+.use-case-section p
+{
+    margin: 0;
+}
+
+.use-case-section p:first-of-type
+{
+    color: white;
+    margin-bottom: 10px;
+}
+
 footer
 {
     height: 400px;
