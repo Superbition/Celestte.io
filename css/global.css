@@ -276,12 +276,61 @@ main
 
 footer
 {
-    height: 400px;
-    background-color: #c7cde9;
+    background: rgb(122,136,194);
+    background: linear-gradient(175deg, #7a88c2 22%, #5867a7 72%); 
 
+    border-radius: 12px 12px 0 0;
+
+    height: auto;
+    width: auto;
     margin-top: 120px;
     margin-left: 10%;
     margin-right: 10%;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding: 20px;
+}
+
+footer hr
+{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, #00000000, #a4b0e0, #00000000);
+}
+
+#footer-header
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-header p:nth-child(1)
+{
+    color: white;
+    font-weight: bold;
+    font-size: 54px;
+    margin: 0;
+}
+
+#footer-header p:nth-child(2)
+{
+    color: #dad8d8;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 0;
+    margin-top: 10px;
+    width: 400px;
+}
+
+#footer-copy-contact
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-copy-contact p
+{
+    color: #bdb9b9;
+    margin: 0;
 }
