@@ -329,8 +329,9 @@ footer hr
     justify-content: space-between;
 }
 
-#footer-copy-contact p
+#footer-copy-contact p, #footer-copy-contact a, #footer-copy-contact a:link
 {
     color: #bdb9b9;
     margin: 0;
+    text-decoration: none;
 }
