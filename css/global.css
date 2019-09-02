@@ -335,3 +335,22 @@ footer hr
     margin: 0;
     text-decoration: none;
 }
+
+#socials
+{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#socials img:nth-child(1)
+{
+    margin-right: 10px;
+}
+
+#socials img
+{
+    display: block;
+    height: 28px;
+    width: auto;
+}
