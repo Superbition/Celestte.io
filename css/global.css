@@ -199,6 +199,10 @@ main
     border-radius: 10px;
     background: rgb(122,139,228);
     background: linear-gradient(175deg, rgba(122,139,228,1) 0%, rgba(66,80,150,1) 76%);
+
+    -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
 }
 
 #use-case-wrapper
