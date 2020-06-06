@@ -102,7 +102,7 @@ main
     margin-right: 20%;
 }
 
-#phaze-text-intro
+#polyel-text-intro
 {
     font-size: 34px;
     color: #4F5B93;
@@ -111,13 +111,13 @@ main
     margin-bottom: 80px;
 }
 
-#phaze-code-intro
+#polyel-code-intro
 {
     text-align-last: center;
     height: auto;
 }
 
-#phaze-code-intro img
+#polyel-code-intro img
 {
     height: 410px;
     width: auto;
@@ -131,7 +131,7 @@ main
     margin-top: 50px;
 }
 
-#phaze-short-desc
+#polyel-short-desc
 {
     font-size: 34px;
     color: #4F5B93;
