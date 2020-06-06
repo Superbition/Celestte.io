@@ -108,7 +108,7 @@ main
     color: #4F5B93;
     text-align: center;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 #phaze-code-intro
@@ -119,7 +119,7 @@ main
 
 #phaze-code-intro img
 {
-    height: 300px;
+    height: 410px;
     width: auto;
 
     -webkit-filter: drop-shadow(5px 5px 5px #383838);
