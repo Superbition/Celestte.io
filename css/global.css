@@ -99,7 +99,7 @@ main
     margin-right: 20%;
 }
 
-#polyel-text-intro
+#voltis-text-intro
 {
     font-size: 34px;
     color: #4F5B93;
@@ -108,13 +108,13 @@ main
     margin-bottom: 80px;
 }
 
-#polyel-code-intro
+#voltis-code-intro
 {
     text-align-last: center;
     height: auto;
 }
 
-#polyel-code-intro img
+#voltis-code-intro img
 {
     height: 410px;
     width: auto;
@@ -128,7 +128,7 @@ main
     margin-top: 50px;
 }
 
-#polyel-short-desc
+#voltis-short-desc
 {
     font-size: 34px;
     color: #4F5B93;
