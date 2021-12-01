@@ -17,6 +17,8 @@ header
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    margin-bottom: 20px;
 }
 
 #headerTopLine
@@ -90,6 +92,95 @@ nav
 #nav-ul li a:hover
 {
     color: #6d78b3;
+}
+
+#heroHeader
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 70px;
+    width: 100%;
+}
+
+#heroHeader > div
+{
+    flex: 1;
+}
+
+#heroHeaderText
+{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#heroHeaderTextContainer
+{
+    padding: 30px;
+    background-color: #424348;
+    border-radius: 16px;
+
+    box-shadow: 6px 6px 6px 0px #C4C4C4;
+}
+
+#heroHeaderTextContainer h1
+{
+    font-size: 54px;
+    font-weight: bold;
+    margin: 0;
+
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+
+#heroHeaderTextContainer > p
+{
+    color: rgb(150, 150, 150);
+}
+
+#heroHeaderTextFeatureList
+{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+
+    margin-top: 30px;
+}
+
+.heroHeaderFeature
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: start;
+}
+
+.heroHeaderFeature i
+{
+    margin-right: 10px;
+    color: whitesmoke;
+    font-size: 28px;
+}
+
+.heroHeaderFeature p
+{
+    color: #C9D6FF;
+    margin: 0;
+    font-size: 14px;
+}
+
+#heroHeaderImage
+{
+    margin-left: 80px;
+}
+
+#heroHeaderImage img
+{
+    height: auto;
+    width: 700px;
 }
 
 main
